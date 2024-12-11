@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:aqua;
+}
+
+
+#divPikachus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(243, 207, 207);
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.card p {
+    margin: 10px 0 0;
+    font-size: 20pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
